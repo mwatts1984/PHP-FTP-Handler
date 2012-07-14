@@ -1,0 +1,16 @@
+What is PHP-FTP-Class
+======================
+
+A PHP class to allow easy FTP/FTPS access. This does not allow SFTP connections (SSH).
+
+Doesn't rely on PHPs default FTP functions and also allows FTPs connections 
+which the inbuilt FTP functions are not compatible with.
+
+For more information visit: http://shanerutter.co.uk
+
+License
+-------
+
+PHP-FTP-Class is released under the GNU General Public License, version 2:
+
+http://www.gnu.org/licenses/gpl-2.0.html
