@@ -7,16 +7,14 @@ class FTP_Handler {
 
 	public function __construct( $hostname, $username, $password, $workingDirectory ) {
 
-		$this->connectionSettings = array
+		$this->connectionSettings = array (
 			
-		(
-				"hostname" 				=> $hostname, 
-				"username" 				=> $username, 
-				"password" 				=> $password,
-				"workingDirectory" 		=> $workingDirectory,
-				"stream" 				=> ftp_connect($hostname),
-				"result" 				=> ftp_login(ftp_connect($hostname), $username, $password),
-		);
+		"hostname" 				=> $hostname, 
+		"username" 				=> $username, 
+		"password" 				=> $password,
+		"workingDirectory" 		=> $workingDirectory,
+		"stream" 				=> ftp_connect($hostname),
+		"result" 				=> ftp_login(ftp_connect($hostname), $username, $password) );
 
 	}
 
