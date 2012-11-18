@@ -7,6 +7,11 @@ Doesn't rely on PHPs default FTP functions and also allows FTPs connections whic
 
 For more information visit: http://shanerutter.co.uk
 
+USAGE INSTRUCTIONS
+==================
+
+$FTP = new FTP_Handler('ftp.hostname.com','username','password','/your/working/directory/');
+
 License
 -------
 
